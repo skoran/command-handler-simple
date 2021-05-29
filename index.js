@@ -1,4 +1,4 @@
-////////////// You must do: npm init
+//////////////You must do: npm init
 
 const Discord = require("discord.js"); /// npm i install discord.js
 
