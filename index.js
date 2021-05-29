@@ -1,3 +1,5 @@
+////////////// You must do: npm init
+
 const Discord = require("discord.js"); /// npm i install discord.js
 
 const client = new Discord.Client();///////Defines client
