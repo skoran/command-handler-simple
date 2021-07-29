@@ -43,7 +43,7 @@ client.on("message", async message => {
     }
 
     if (command === "command name") { ///The name of the command
-        client.commands.get('file name | commands/...').execute(message, args); //// The name of the file in the commands folder
+        client.commands.get('file name | commands/...').execute(message, args, client); //// The name of the file in the commands folder
     }
 
 
