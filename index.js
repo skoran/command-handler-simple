@@ -39,7 +39,7 @@ client.on("message", async message => {
 
 
     if (command === "ping") { ////You need to open a file named: ping.js inside the commands folder
-        client.commands.get('ping').execute(message, args);
+        client.commands.get('ping').execute(message, args, client);
     }
 
     if (command === "command name") { ///The name of the command
